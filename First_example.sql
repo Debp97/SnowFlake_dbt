@@ -1,0 +1,1 @@
+select * from DEBAJIT_TEST_DB.debajit_schema.my_first_dbt_model;
