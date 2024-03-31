@@ -1,0 +1,13 @@
+version: "1.0.0"
+
+sources:
+  - name: global_project
+    database: DEBAJIT_TEST_DB
+    schema: DEBAJIT_SCHEMA
+    tables:
+      - name: lookup_age
+      - name: lookup_area
+      - name: lookup_ethnic
+      - name: lookup_sex
+      - name: lookup_year
+      - name: group_fact
