@@ -1,0 +1,16 @@
+version: "1.0.0"
+
+models:
+  - name: raw_dbt_fact_group
+    columns:
+      - name: year
+        tests:
+          - acceted_values:
+              values: [2018, 2006, 2013]
+          - not_null
+  - name: raw_dbt_lookup_area
+    columns:
+      - name: code
+        tests:
+          - unique
+          - not_null
