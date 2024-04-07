@@ -11,3 +11,5 @@ sources:
       - name: lookup_sex
       - name: lookup_year
       - name: group_fact
+      - name: incremental_lookup_sex
+      - name: lookup_area_new
